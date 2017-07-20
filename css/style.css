@@ -8,20 +8,20 @@
 
 */
 body {
-	background: url("https://www.maddyness.com/wp-content/uploads/2013/06/apprendre-coder.jpg") center no-repeat;
+	background: url("../image/background1.jpg") center no-repeat;
   	background-size: cover;
   	width: 100%;
   	height: 100%;
   	padding-top: 9em;
 }
-[class*="col-"], footer {
+/*[class*="col-"], footer {
   background-color: lightgreen;
   border: 2px solid black;
   border-radius: 6px;
   line-height: 40px;
   text-align: center;
   margin-top: 2%;
-}
+}*/
 .profil img {
 	border-radius: 20%;
 	filter: saturate(40%);
@@ -38,13 +38,16 @@ body {
   text-align: center;
 	list-style: none;
 	font-size: 1.4em;
-  padding-top: 1em;
 }
 .icone a {
-  
+  font-size: 2em;
+  color: white;
 }
 .icone a:hover {
   color: black;
+}
+.icone i {
+  padding-left: 0.6em;
 }
 .menu {
   background-color: rgba(84, 166, 255, 0.9);
@@ -54,28 +57,36 @@ body {
   font-family: 'Expletus Sans', cursive;
   font-weight: bold;
   font-size: 1.2em;
-  color: blue;
+  color: white;
   text-transform: capitalize;
 }
 .menu li:hover {
-  border-bottom: 2px solid #337ab7;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  
 }
 .menu ul li a:hover {
-  background-color: rgba(160, 160, 160, 0.6);
+  background-color: rgba(51, 122, 183, 0.6);
 }
 .rappel {
   font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
   font-size: 1.8em;
-  color: blue;
+  color: white;
   text-transform: capitalize;
   text-align: center;
 }
 .presentation {
   font-family: 'Cormorant Garamond', serif;
+  color: white;
   text-align: left;
   list-style: none;
-  font-size: 1.2em;
+  font-size: 1.7em;
   text-transform: capitalize;
   line-height: 2;
+}
+.encadrement {
+  background-color: rgba(75, 149, 230, 0.8);
+  border-radius: 20px;
+  border-bottom: 2px solid black;
 }
