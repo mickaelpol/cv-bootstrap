@@ -27,6 +27,7 @@ body {
 	filter: saturate(40%);
 	box-shadow: 10px 15px 25px black;
   width: 100%;
+  padding-top: 0.5em;
 }
 .border {
 	border-left: 2px solid lightgrey;
@@ -85,7 +86,22 @@ body {
   text-transform: capitalize;
   line-height: 2;
 }
+/*.presentation i {
+  word-spacing: 0.5em;
+}*/
 .encadrement {
+  background-color: rgba(75, 149, 230, 0.8);
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+}
+.menudroit ul{
+  list-style: none;
+  font-size: 2em;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
   background-color: rgba(75, 149, 230, 0.8);
   border-radius: 20px;
   border-bottom: 2px solid black;
