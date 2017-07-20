@@ -106,3 +106,24 @@ body {
   border-radius: 20px;
   border-bottom: 2px solid black;
 }
+.titre1 {
+  text-align: center;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3em;
+}
+.drapeau, .drapeau1 {
+  list-style: none;
+}
+.drapeau img {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: rgba(75, 149, 230, 0.8);
+  border-radius: 25%;
+}
+.drapeau i {
+  width: 20px;
+  height: 50px;
+}
+
