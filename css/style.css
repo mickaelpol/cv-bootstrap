@@ -1,0 +1,108 @@
+/*police 
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-family: 'Expletus Sans', cursive;
+
+    font-family: 'Cormorant Upright', serif;
+
+*/
+body {
+	background: url("../image/background1.jpg") center no-repeat;
+  	background-size: cover;
+  	width: 100%;
+  	height: 100%;
+  	padding-top: 9em;
+}
+/*[class*="col-"], footer {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 2%;
+}*/
+.profil img {
+	border-radius: 20%;
+	filter: saturate(40%);
+	box-shadow: 10px 15px 25px black;
+  width: 100%;
+  padding-top: 0.5em;
+}
+.border {
+	border-left: 2px solid lightgrey;
+}
+.border li {
+	text-align: left;
+}
+.icone {
+  text-align: center;
+	list-style: none;
+	font-size: 1.4em;
+}
+.icone a {
+  font-size: 2em;
+  color: white;
+}
+.icone a:hover {
+  color: black;
+}
+.icone i {
+  padding-left: 0.6em;
+}
+.menu {
+  background-color: rgba(84, 166, 255, 0.9);
+  box-shadow: 15px 15px 25px black;
+}
+.menu a {
+  font-family: 'Expletus Sans', cursive;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  text-transform: capitalize;
+}
+.menu li:hover {
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  
+}
+.menu ul li a:hover {
+  background-color: rgba(51, 122, 183, 0.6);
+}
+.rappel {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+.presentation {
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  text-align: left;
+  list-style: none;
+  font-size: 1.7em;
+  text-transform: capitalize;
+  line-height: 2;
+}
+/*.presentation i {
+  word-spacing: 0.5em;
+}*/
+.encadrement {
+  background-color: rgba(75, 149, 230, 0.8);
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+}
+.menudroit ul{
+  list-style: none;
+  font-size: 2em;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  background-color: rgba(75, 149, 230, 0.8);
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+}
