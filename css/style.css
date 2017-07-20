@@ -8,10 +8,11 @@
 
 */
 body {
-	background: url("./cv_bootstrap/image/background1.jpeg") center no-repeat;
+	background: url("https://www.maddyness.com/wp-content/uploads/2013/06/apprendre-coder.jpg") center no-repeat;
+  	background-size: cover;
   	width: 100%;
   	height: 100%;
-  	padding-top: 10px;
+  	padding-top: 9em;
 }
 [class*="col-"], footer {
   background-color: lightgreen;
@@ -22,15 +23,59 @@ body {
   margin-top: 2%;
 }
 .profil img {
-	border-radius: 50%;
+	border-radius: 20%;
+	filter: saturate(40%);
+	box-shadow: 10px 15px 25px black;
+  width: 100%;
 }
 .border {
 	border-left: 2px solid lightgrey;
 }
 .border li {
-	background: url("cv_bootstrap/image/background1.jpeg");
 	text-align: left;
 }
 .icone {
+  text-align: center;
 	list-style: none;
+	font-size: 1.4em;
+  padding-top: 1em;
+}
+.icone a {
+  
+}
+.icone a:hover {
+  color: black;
+}
+.menu {
+  background-color: rgba(84, 166, 255, 0.9);
+  box-shadow: 15px 15px 25px black;
+}
+.menu a {
+  font-family: 'Expletus Sans', cursive;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: blue;
+  text-transform: capitalize;
+}
+.menu li:hover {
+  border-bottom: 2px solid #337ab7;
+}
+.menu ul li a:hover {
+  background-color: rgba(160, 160, 160, 0.6);
+}
+.rappel {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  color: blue;
+  text-transform: capitalize;
+  text-align: center;
+}
+.presentation {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  list-style: none;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  line-height: 2;
 }
