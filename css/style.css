@@ -31,14 +31,28 @@ body {
 }
 .border {
 	border-left: 2px solid lightgrey;
+  list-style: none;
+}
+.border1 ul {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 25px black;
+  border-radius: 5%;
+}
+.border ul {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 25px black;
+  border-radius: 5%;
 }
 .border li {
 	text-align: left;
   font-family: 'Expletus Sans', cursive;
   font-size: 1.5em;
-  color: black;
+  color: white;
   font-weight: lighter;
   text-transform: capitalize;
+}
+.border i {
+  color: black;
 }
 .icone {
   text-align: center;
@@ -83,7 +97,7 @@ body {
   text-align: center;
 }
 .presentation {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Upright', serif;
   color: white;
   text-align: left;
   list-style: none;
@@ -130,6 +144,20 @@ body {
 .drapeau i {
   width: 20px;
   height: 50px;
+}
+.dip li {
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    color: black;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.footer {
+  line-height: 4;
+  margin: 60px 0px 30px 0px;
+  font-size: 1.2em;
+  color: black;
 }
 
 
