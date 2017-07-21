@@ -4,9 +4,15 @@
 
     font-family: 'Expletus Sans', cursive;
 
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Cormorant Upright', serif;*/
 
-*/
+    /*[class*="col-"], footer {*/
+     /* background-color: lightgreen;*/
+    /*  border: 2px solid black;
+      border-radius: 6px;*/
+      /*line-height: 40px;
+      text-align: center;
+      margin-top: 2%;*/
 body {
 	background: url("../image/background1.jpg") center no-repeat;
   	background-size: cover;
@@ -14,24 +20,16 @@ body {
   	height: 100%;
   	padding-top: 9em;
 }
-/*[class*="col-"], footer {
-  background-color: lightgreen;
-  border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
-  text-align: center;
-  margin-top: 2%;
-}*/
-.profil img {
+
+}
+.img-responsive {
 	border-radius: 20%;
 	filter: saturate(40%);
 	box-shadow: 10px 15px 25px black;
-  width: 100%;
   padding-top: 0.5em;
 }
 .border {
 	border-left: 2px solid lightgrey;
-  list-style: none;
 }
 .border1 ul {
   background-color: rgba(0, 0, 0, 0.4);
@@ -105,9 +103,6 @@ body {
   text-transform: capitalize;
   line-height: 2;
 }
-/*.presentation i {
-  word-spacing: 0.5em;
-}*/
 .encadrement {
   background-color: rgba(75, 149, 230, 0.8);
   border-radius: 20px;
@@ -126,7 +121,6 @@ body {
   border-bottom: 2px solid black;
 }
 .titre1 {
-  text-align: center;
   color: white;
   font-family: 'Cormorant Garamond', serif;
   font-size: 3em;

@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Cormorant+Upright|Expletus+Sans" rel="stylesheet">
 </head>
 <body id="haut">
-	<nav class="navbar navbar-default navbar-fixed-top menu">
+	<nav class="visible-md visible-lg navbar navbar-default navbar-fixed-top menu">
 		<div class="container">
 			<ul class="nav nav-pills navbar-right">
 				<li role="presentation"><a href="#haut">accueil</a></li>
@@ -26,6 +26,10 @@
 					</ul>
 				</div>
 			</div>
+		</nav>
+		<nav class="visible-xs_visible-sm">
+     <!-- a remplir navigation responsive -->
+
 		</nav>
 		<div class="container">
 		<!-- <div class="row">
@@ -43,9 +47,9 @@
 			<div class="col-lg-1">12 ieme colonnes</div>
 		</div> -->
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-md-10 col-sm-12 col-xs-12 ">
 				<div class="row encadrement">
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-xs-6">
 						<ul class="presentation">
 							<li>Mickael pol</li>
 							<li>18 Rue de cugnaux</li>
@@ -54,10 +58,10 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-6  profil">
-						<img src="./image/photoprofil.jpeg">
+					<div class="col-md-6 col-xs-6 profil">
+						<img src="./image/photoprofil.jpeg" class="img-responsive img-circle">
 					</div>
-					<div class="col-md-12">
+					<div class="col-md-12 col-xs-12">
 						<ul class="list-inline icone">
 							<li><a href="http://urlz.fr/5BjB" target="blank" ><i class="fa fa-github" aria-hidden="true"></i></a></li>
 							<li><a href="http://urlz.fr/5BjD" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -72,7 +76,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-2 col-lg-offset-6 menudroit">
+			<div class="visible-md visible-lg col-lg-2 col-lg-offset-6 col-md-2 menudroit">
 				<ul class="presentation">
 					<li>Regional</li>
 					<li>
@@ -85,13 +89,13 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header titre1 encadrement">Dévelloppeur Web Junior</h1>
+				<h1 class="page-header titre1 encadrement text-center">Dévelloppeur Web Junior</h1>
 			</div>
 			<div class="col-lg-12" id="comp">
-				<h1 class="page-header titre1 encadrement">competences</h1>
+				<h1 class="page-header text-center titre1 encadrement">competences</h1>
 				<div class="row">
-					<div class="col-lg-4">
-						<ul class="border">
+					<div class="col-lg-4 col-xs-12">
+						<ul class=" text-center list-inline border">
 							<li class="drapeau">
 								<img src="./image/html5.png" alt="html5">
 								<i class="fa fa-star" aria-hidden="true"></i>
@@ -112,8 +116,8 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-4">
-						<ul class="border">
+					<div class="col-lg-4 col-xs-12">
+						<ul class=" list-inline text-center border">
 							<li class="drapeau">
 								<img src="./image/JS.png" alt="javascript">
 								<i class="fa fa-star" aria-hidden="true"></i>
@@ -134,8 +138,8 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-4">
-						<ul class="border">
+					<div class="col-lg-4 col-xs-12">
+						<ul class=" list-inline border text-center">
 							<li class="drapeau">
 								<img src="./image/jquerry.png" alt="jquerry">
 								<i class="fa fa-star" aria-hidden="true"></i>
@@ -159,16 +163,16 @@
 				</div>
 			</div>
 			<div class="col-lg-12" id="xp">
-				<h1 class="page-header titre1 encadrement">expériences professionnelles</h1>
+				<h1 class="page-header text-center titre1 encadrement">expériences professionnelles</h1>
 				<div class="row">
 					<div class="col-lg-6 border1">
-						<ul class="border drapeau">
+						<ul class="text-center border drapeau">
 							<li>2 ans dans une entreprise de chauffage/plomberie (mazamet)</li>
 							<li>4 ans en tant que frigoriste pour l'entreprise SPIE SUD-OUEST (albi/mazamet)</li>
 						</ul>
 					</div>
 					<div class="col-lg-6 border1">
-						<ul class="border drapeau">
+						<ul class="text-center border drapeau">
 							<li>1 ans en tant que poseur de parquet et terrasse bois (toulouse)</li>
 							<li>2 ans dans des entreprise de Monteur en gaine de ventilation (toulouse)</li>
 						</ul>
@@ -176,10 +180,10 @@
 				</div>
 			</div>
 			<div class="col-lg-12" id="diplomes">
-				<h1 class="page-header titre1 encadrement">diplomes</h1>
+				<h1 class="text-center page-header titre1 encadrement">diplomes</h1>
 				<div class="row">
 					<div class="col-lg-4 border1">
-						<ul class="border drapeau">
+						<ul class=" border drapeau">
 							<li>BEP Plomberie Chauffage</li>
 						</ul>
 					</div>
@@ -196,10 +200,10 @@
 				</div>
 			</div>
 			<div class="col-lg-12" id="loisir">
-				<h1 class="titre1 encadrement">loisirs</h1>
+				<h1 class="titre1 text-center encadrement">loisirs</h1>
 				<div class="row">
 					<div class="col-lg-4 border1">
-						<ul class="border">
+						<ul class="list-undefinied border">
 							<li>Sport</li>
 							<li>Hardware</li>
 						</ul>
