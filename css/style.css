@@ -5,147 +5,100 @@
     font-family: 'Expletus Sans', cursive;
 
     font-family: 'Cormorant Upright', serif;*/
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+}*/
 
-    /*[class*="col-"], footer {*/
-     /* background-color: lightgreen;*/
-    /*  border: 2px solid black;
-      border-radius: 6px;*/
-      /*line-height: 40px;
-      text-align: center;
-      margin-top: 2%;*/
 body {
-	background: url("../image/background1.jpg") center no-repeat;
-  	background-size: cover;
-  	width: 100%;
-  	height: 100%;
-  	padding-top: 9em;
-}
-
+  background: url("../image/background1.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 9em;
 }
 .img-responsive {
-	border-radius: 20%;
-	filter: saturate(40%);
-	box-shadow: 10px 15px 25px black;
-  padding-top: 0.5em;
+  box-shadow: 10px 15px 25px black;
+    margin-top: 0.9em;
 }
 .border {
-	border-left: 2px solid lightgrey;
-}
-.border1 ul {
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 15px 15px 25px black;
-  border-radius: 5%;
-}
-.border ul {
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 15px 15px 25px black;
-  border-radius: 5%;
+  border-left: 2px solid lightgrey;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .border li {
-	text-align: left;
   font-family: 'Expletus Sans', cursive;
   font-size: 1.5em;
   color: white;
   font-weight: lighter;
-  text-transform: capitalize;
 }
 .border i {
   color: black;
 }
 .icone {
-  text-align: center;
-	list-style: none;
-	font-size: 1.4em;
+    font-size: 2em;
+    color: white;
 }
 .icone a {
-  font-size: 2em;
+  font-size: 1.2em;
   color: white;
+  margin-left: 5px;
 }
 .icone a:hover {
   color: black;
 }
-.icone i {
-  padding-left: 0.6em;
-}
 .menu {
-  background-color: rgba(84, 166, 255, 0.9);
   box-shadow: 15px 15px 25px black;
+  background-color: rgba(51, 122, 183, 0.6);
 }
 .menu a {
   font-family: 'Expletus Sans', cursive;
   font-weight: bold;
   font-size: 1.2em;
   color: white;
-  text-transform: capitalize;
-}
-.menu li:hover {
-  border-bottom: 2px solid black;
-  border-radius: 10px;
-  
 }
 .menu ul li a:hover {
-  background-color: rgba(51, 122, 183, 0.6);
+  background-color: #337ab7; /*rgba(51, 122, 183, 0.6);*/
+  border-radius: 10px;
+  border-bottom: 2px solid black;
 }
 .rappel {
   font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
   font-size: 1.8em;
   color: white;
-  text-transform: capitalize;
-  text-align: center;
 }
 .presentation {
   font-family: 'Cormorant Upright', serif;
   color: white;
-  text-align: left;
-  list-style: none;
-  font-size: 1.7em;
-  text-transform: capitalize;
+  font-size: 2em;
   line-height: 2;
+  font-weight: bold;
 }
 .encadrement {
-  background-color: rgba(75, 149, 230, 0.8);
   border-radius: 20px;
-  border-bottom: 2px solid black;
-}
-.menudroit ul{
-  list-style: none;
-  font-size: 2em;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: bold;
-  text-align: center;
-  text-transform: capitalize;
-  color: white;
-  background-color: rgba(75, 149, 230, 0.8);
-  border-radius: 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 5px solid black;
+  box-shadow: 5px 15px 25px black;
 }
 .titre1 {
   color: white;
   font-family: 'Cormorant Garamond', serif;
   font-size: 3em;
 }
-.drapeau{
-  list-style: none;
-}
 .drapeau img {
-  width: 60px;
-  height: 60px;
   margin-top: 20px;
-  background-color: rgba(75, 149, 230, 0.8);
   border-radius: 25%;
 }
-.drapeau i {
-  width: 20px;
-  height: 50px;
+.drapeau span {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
-.dip li {
-    text-align: left;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5em;
-    color: black;
-    font-weight: lighter;
-    text-transform: capitalize;
+.drapeau i {
+    color: white;
 }
 .footer {
   line-height: 4;

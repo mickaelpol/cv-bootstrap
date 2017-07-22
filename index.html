@@ -3,6 +3,7 @@
 <head>
 	<title>CV Mickael Pol</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -10,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Cormorant+Upright|Expletus+Sans" rel="stylesheet">
 </head>
 <body id="haut">
-	<nav class="visible-md visible-lg navbar navbar-default navbar-fixed-top menu">
+	<nav class="visible-md visible-lg navbar navbar-default navbar-fixed-top text-capitalize menu">
 		<div class="container">
 			<ul class="nav nav-pills navbar-right">
 				<li role="presentation"><a href="#haut">accueil</a></li>
@@ -21,14 +22,14 @@
 			</ul>
 			<div class="container">
 				<ul class="nav navbar-text navbar-left">
-					<h4 class="rappel">developpeur web junior <br>
+					<h4 class="text-center text-capitalize rappel">developpeur web junior <br>
 						ecole du numerique carcassone</h4>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		<nav class="visible-xs_visible-sm">
-     <!-- a remplir navigation responsive -->
+		<nav class="visible-xs visible-sm">
+			<!-- a remplir navigation responsive -->
 
 		</nav>
 		<div class="container">
@@ -47,22 +48,26 @@
 			<div class="col-lg-1">12 ieme colonnes</div>
 		</div> -->
 		<div class="row">
-			<div class="col-md-10 col-sm-12 col-xs-12 ">
-				<div class="row encadrement">
-					<div class="col-lg-6 col-md-6 col-xs-6">
-						<ul class="presentation">
+			<div class="col-lg-6 col-md-10 col-sm-10 col-xs-10 ">
+				<div class="row encadrement bg-primary">
+					<div class="col-lg-6 col-md-6 col-xs-5 col-sm-4">
+						<ul class="presentation list-unstyled text-center text-capitalize">
 							<li>Mickael pol</li>
 							<li>18 Rue de cugnaux</li>
 							<li>31300 Toulouse</li>
-							<li><i class="fa fa-mobile presentation" aria-hidden="true">07-81-94-81-13</i>
+							<li><i class="fa fa-mobile" aria-hidden="true"></i>  07-81-94-81-13
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-6 col-xs-6 profil">
-						<img src="./image/photoprofil.jpeg" class="img-responsive img-circle">
+					<div class="col-lg-3 col-md-3 col-xs-4  col-sm-4">
+						<img src="./image/photoprofil.jpeg" class="img-responsive img-thumbnail img-circle">
 					</div>
-					<div class="col-md-12 col-xs-12">
-						<ul class="list-inline icone">
+				</div>
+			</div>
+			<div class=" visible-xs visible-sm col-xs-1 col-xs-offset-1 col-sm-1 col-sm-offset-1 bg-primary encadrement list-vertical">
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<ul class="list-inline icone pull-left">
 							<li><a href="http://urlz.fr/5BjB" target="blank" ><i class="fa fa-github" aria-hidden="true"></i></a></li>
 							<li><a href="http://urlz.fr/5BjD" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
 							</a></li>
@@ -76,166 +81,193 @@
 					</div>
 				</div>
 			</div>
-			<div class="visible-md visible-lg col-lg-2 col-lg-offset-6 col-md-2 menudroit">
-				<ul class="presentation">
+			<div class="visible-md visible-lg col-lg-2 col-lg-offset-4 col-md-2">
+				<ul class="presentation list-unstyled list-inline text-center text-capitalize bg-primary encadrement">
 					<li>Regional</li>
-					<li>
-						<img src="./image/francais.png" alt="drapeau français">
-						<img src="./image/anglais.jpeg" alt="drapeau anglais">
-					</li>
-					<li>Permis B</li>
-				</ul>
+					<li class="list-inline">
+						Langues parlés
+						<li><img class="img-responsive" src="./image/francais.png" alt="drapeau français"></li>
+						<li><img class="img-responsive" src="./image/anglais.jpeg" alt="drapeau français"></li>
+						<li>Permis B</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 visible-md visible-lg bg-primary encadrement">
+					<ul class="list-inline icone pull-left">
+						<li><a href="http://urlz.fr/5BjB" target="blank" ><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						<li><a href="http://urlz.fr/5BjD" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a></li>
+						<li><a href="http://urlz.fr/5BjE" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+						</a></li>
+						<li><a href="mailto:polmickael3@gmail.com" target="blank"><i class="fa fa-envelope" aria-hidden="true"></i>
+						</a></li>
+						<li><a href="http://urlz.fr/5BjA" target="blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="page-header titre1 encadrement text-center text-uppercase bg-primary">dévelloppeur web junior</h1>
+				</div>
+				<div class="col-lg-12" id="comp">
+					<h1 class="page-header text-center text-capitalize bg-primary titre1 encadrement">competences</h1>
+					<div class="row">
+						<div class="col-lg-4 col-xs-12">
+							<ul class="text-center list-unstyled list-inline border drapeau ">
+								<li>
+									<img src="./image/html5.png" alt="html5" width="60" height="60" class="bg-primary">
+									<span>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+									</span>
+								</li>
+								<li>
+									<img src="./image/css.png" alt="css" width="60" height="60" class="bg-primary">
+									<span>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-xs-12">
+							<ul class="text-center list-unstyled list-inline border drapeau">
+								<li>
+									<img src="./image/JS.png" alt="javascript" width="60" height="60" class="bg-primary">
+									<span>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+									</span>
+								</li>
+								<li>
+									<img src="./image/github.png" alt="github" width="60" height="60" class="bg-primary">
+									<span>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-xs-12">
+							<ul class="text-center list-unstyled list-inline border drapeau">
+								<li>
+									<img src="./image/jquerry.png" alt="jquerry" width="60" height="60" class="bg-primary">
+									<span>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+									</span>
+								</li>
+								<li>
+									<img src="./image/bootstrap.png" alt="bootstrap" width="60" height="60" class="bg-primary">
+									<span>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12" id="xp">
+					<h1 class="page-header text-center titre1 encadrement text-capitalize bg-primary">expériences professionnelles</h1>
+					<div class="row">
+						<div class="col-lg-6 border1">
+							<ul class="text-center text-capitalize border list-inline list-unstyled">
+								<li>2 ans dans une entreprise de chauffage/plomberie (mazamet)</li>
+								<li>4 ans en tant que frigoriste pour l'entreprise SPIE SUD-OUEST (albi/mazamet)</li>
+							</ul>
+						</div>
+						<div class="col-lg-6 border1">
+							<ul class="text-center text-capitalize border list-inline list-unstyled">
+								<li>1 ans en tant que poseur de parquet et terrasse bois (toulouse)</li>
+								<li>2 ans dans des entreprise de Monteur en gaine de ventilation (toulouse)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12" id="diplomes">
+					<h1 class="text-center text-capitalize page-header titre1 encadrement bg-primary">diplomes</h1>
+					<div class="row">
+						<div class="col-lg-4 border1">
+							<ul class="text-center text-capitalize border list-inline list-unstyled">
+								<li>BEP Plomberie Chauffage</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 border1">
+							<ul class="text-center text-capitalize border list-inline list-unstyled">
+								<li>BAC Pro technicien en installation des systèmes énergétiques et climatiques </li>
+							</ul>
+						</div>
+						<div class="col-lg-4 border1">
+							<ul class="text-center text-capitalize border list-inline list-unstyled">
+								<li>Qualification ENR (Energies Renouvelables)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12" id="loisir">
+					<h1 class="titre1 text-center text-capitalize bg-primary encadrement">loisirs</h1>
+					<div class="row">
+						<div class="col-lg-4 border1">
+							<ul class="text-center text-capitalize border list-unstyled">
+								<li>Sport</li>
+								<li>Hardware</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 border1">
+							<ul class="text-center text-capitalize border list-unstyled">
+								<li>Gaming</li>
+								<li>Logiciel</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 border1">
+							<ul class="text-center text-capitalize border list-unstyled">
+								<li>ballade</li>
+								<li>recherche</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="page-header titre1 encadrement text-center">Dévelloppeur Web Junior</h1>
-			</div>
-			<div class="col-lg-12" id="comp">
-				<h1 class="page-header text-center titre1 encadrement">competences</h1>
-				<div class="row">
-					<div class="col-lg-4 col-xs-12">
-						<ul class=" text-center list-inline border">
-							<li class="drapeau">
-								<img src="./image/html5.png" alt="html5">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-							</li>
-							<li class="drapeau">
-								<img src="./image/css.png" alt="css">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-							</li>
-						</ul>
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-offset-1 col-xs-10 xp text-center footMarg">
+					<div class="col-md-2 col-sm-3 col-xs-12">
+						<p class="row footer"><i class="fa fa-copyright" aria-hidden=true></i> Mickael Pol</p>
 					</div>
-					<div class="col-lg-4 col-xs-12">
-						<ul class=" list-inline text-center border">
-							<li class="drapeau">
-								<img src="./image/JS.png" alt="javascript">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-							</li>
-							<li class="drapeau">
-								<img src="./image/github.png" alt="github">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-4 col-xs-12">
-						<ul class=" list-inline border text-center">
-							<li class="drapeau">
-								<img src="./image/jquerry.png" alt="jquerry">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-							</li>
-							<li class="drapeau">
-								<img src="./image/bootstrap.png" alt="bootstrap">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12" id="xp">
-				<h1 class="page-header text-center titre1 encadrement">expériences professionnelles</h1>
-				<div class="row">
-					<div class="col-lg-6 border1">
-						<ul class="text-center border drapeau">
-							<li>2 ans dans une entreprise de chauffage/plomberie (mazamet)</li>
-							<li>4 ans en tant que frigoriste pour l'entreprise SPIE SUD-OUEST (albi/mazamet)</li>
-						</ul>
-					</div>
-					<div class="col-lg-6 border1">
-						<ul class="text-center border drapeau">
-							<li>1 ans en tant que poseur de parquet et terrasse bois (toulouse)</li>
-							<li>2 ans dans des entreprise de Monteur en gaine de ventilation (toulouse)</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12" id="diplomes">
-				<h1 class="text-center page-header titre1 encadrement">diplomes</h1>
-				<div class="row">
-					<div class="col-lg-4 border1">
-						<ul class=" border drapeau">
-							<li>BEP Plomberie Chauffage</li>
-						</ul>
-					</div>
-					<div class="col-lg-4 border1">
-						<ul class="border drapeau">
-							<li>BAC Pro technicien en installation des systèmes énergétiques et climatiques </li>
-						</ul>
-					</div>
-					<div class="col-lg-4 border1">
-						<ul class="border drapeau">
-							<li>Qualification ENR (Energies Renouvelables)</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12" id="loisir">
-				<h1 class="titre1 text-center encadrement">loisirs</h1>
-				<div class="row">
-					<div class="col-lg-4 border1">
-						<ul class="list-undefinied border">
-							<li>Sport</li>
-							<li>Hardware</li>
-						</ul>
-					</div>
-					<div class="col-lg-4 border1">
-						<ul class="border">
-							<li>Gaming</li>
-							<li>Logiciel</li>
-						</ul>
-					</div>
-					<div class="col-lg-4 border1">
-						<ul class="border">
-							<li>ballade</li>
-							<li>recherche</li>
-						</ul>
+					<div class="col-md-8 col-sm-7 col-xs-12">
+						<p class="row footer">Site Réalise avec bootstrap </p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container">
-		<div class="row ">
-			<div class="col-xs-offset-1 col-xs-10 xp text-center footMarg">
-				<div class="col-md-2 col-sm-3 col-xs-12">
-					<p class="row footer"><i class="fa fa-copyright" aria-hidden=true></i> Mickael Pol</p>
-				</div>
-				<div class="col-md-8 col-sm-7 col-xs-12">
-					<p class="row footer">Site Réalise avec bootstrap </p>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
 
