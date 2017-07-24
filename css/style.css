@@ -22,6 +22,31 @@ body {
     padding-top: 9em;
     font-size: 16px;
 }
+.bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.bg-default {
+  color: #000;
+  background-color: #BBB;
+}
+.bg-success {
+  color: #fff;
+  background-color: #5CB85C;
+}
+.bg-info,
+.btn-info:hover{
+  color: #fff;
+  background-color: #5BC0DE;
+}
+.bg-warning {
+  color: #fff;
+  background-color: #F0AD4E;
+}
+.bg-danger {
+  color: #fff;
+  background-color:#D9534F;
+}
 .img-responsive {
   box-shadow: 10px 15px 25px black;
     margin-top: 0.9em;
